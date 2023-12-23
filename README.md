@@ -1,4 +1,3 @@
-
 # LaTeX Templates for Chinese Users
 
 Welcome to the LaTeX Templates for Chinese Users repository! This repo is a tailored version of the original [LaTeX-Templates](https://github.com/sara-venkatraman/LaTeX-Templates) by Sara Venkatraman, specifically designed to enhance the experience for Chinese LaTeX users.
