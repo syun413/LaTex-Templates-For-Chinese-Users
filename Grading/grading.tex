@@ -1,0 +1,136 @@
+\documentclass[12pt,a4paper]{article}
+% Load required packages
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[top=1in, bottom=1in, left=1.25in, right=1.25in]{geometry}
+\usepackage{xcolor}
+\usepackage{fontspec}
+\usepackage{longtable}
+\usepackage{xeCJK}
+\usepackage{tcolorbox}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{tabularx} 
+\usepackage{geometry}
+\usepackage{comment}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{tabularx} % 加入 tabularx 套件來控制表格寬度
+\geometry{a4paper, margin=1in}
+\renewcommand{\arraystretch}{2.5} % 增加表格行的高度，2.5倍為例
+
+\begin{comment}
+1 &  &  &  &  &  &  \\
+\hline
+2 &  &  &  &  &  &  \\
+\hline
+3 &  &  &  &  &  &  \\
+\hline
+4 &  &  &  &  &  &  \\
+\hline
+5 &  &  &  &  &  &  \\
+\hline
+6 &  &  &  &  &  &  \\
+\hline
+7 &  &  &  &  &  &  \\
+\hline
+8 &  &  &  &  &  &  \\
+\hline
+9 &  &  &  &  &  &  \\
+\hline
+10 &  &  &  &  &  &  \\
+\hline
+11 &  &  &  &  &  &  \\
+\hline
+12 &  &  &  &  &  &  \\
+\hline
+13 &  &  &  &  &  &  \\
+\hline
+14 &  &  &  &  &  &  \\
+\hline
+15 &  &  &  &  &  &  \\
+\hline
+16 &  &  &  &  &  &  \\
+\hline
+17 &  &  &  &  &  &  \\
+\hline
+18 &  &  &  &  &  &  \\
+
+\end{document}
+
+\end{comment}
+\geometry{a4paper, margin=1in}
+\renewcommand{\arraystretch}{2.5} % 增加表格行的高度，2.5倍為例
+\tcbuselibrary{listings}
+\setstretch{1.4}
+% Set Chinese Fonts to Songti TC
+\setCJKmainfont{Songti TC}
+
+\begin{document}
+
+% 設定文件標題
+\title{台大資訊系卡評分表}
+\date{}
+\maketitle
+
+
+\begin{longtable}{|c|c|c|c|c|c|p{5cm}|}
+    \hline
+    參賽者編號 & 歌聲與節奏 (45\%) & 表演魅力 (25\%) & 台風 (25\%) & 音色 (5\%) & 評審斟酌加分 (5\%) & 評語 \\
+    \hline
+    \endfirsthead % 首頁表頭
+    
+    \multicolumn{7}{c}%
+    {{\bfseries \tablename\ \thetable{} -- 接續上一頁}} \\
+    \hline
+    參賽者編號 & 歌聲與節奏 (45\%) & 表演魅力 (25\%) & 台風 (25\%) & 音色 (5\%) & 評審斟酌加分 (5\%) & 評語 \\
+    \hline
+    \endhead % 接續頁表頭
+    
+    \hline \multicolumn{7}{|r|}{{接續下一頁}} \\ \hline
+    \endfoot % 接續頁頁腳
+    
+    \hline
+    \endlastfoot % 最後一頁頁腳
+    
+    1 &  &  &  &  &  &  \\
+\hline
+2 &  &  &  &  &  &  \\
+\hline
+3 &  &  &  &  &  &  \\
+\hline
+4 &  &  &  &  &  &  \\
+\hline
+5 &  &  &  &  &  &  \\
+\hline
+6 &  &  &  &  &  &  \\
+\hline
+7 &  &  &  &  &  &  \\
+\hline
+8 &  &  &  &  &  &  \\
+\hline
+9 &  &  &  &  &  &  \\
+\hline
+10 &  &  &  &  &  &  \\
+\hline
+11 &  &  &  &  &  &  \\
+\hline
+12 &  &  &  &  &  &  \\
+\hline
+13 &  &  &  &  &  &  \\
+\hline
+14 &  &  &  &  &  &  \\
+\hline
+15 &  &  &  &  &  &  \\
+\hline
+16 &  &  &  &  &  &  \\
+\hline
+17 &  &  &  &  &  &  \\
+\hline
+18 &  &  &  &  &  &  \\
+    \end{longtable}
+
+\end{document}
